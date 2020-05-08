@@ -1,0 +1,60 @@
+
+
+querySelectorAll = Para percorrer toda a DOM e buscar todos os elementos citados dentro de paratenses
+
+getElementsById = Seleciona somente um elemento através do ID indicado.
+
+getElementsByClass = Seleciona todos os elementos que possuem o nome da class indicado, embora a classe não seja única no HTML.
+
+querySelector = Seleciona um elemento possibilitando referenciar semelhante ao CSS o nome da div e id do elemento.
+
+.value = Possibilita a recuperação do valor atribuido a uma variável.
+
+
+
+
+Aula 2
+
+
+document.createElement: Criação de um elemento HTML através do JavaScript
+
+docuument.createTextNode: Cria um texto comum no HTML.
+
+.setAttribute: Permite inserir um atributo dentro de um elemento criado pelo javascript.
+
+.appendChild: Permite a inserção de um elemento HTML dentro de outro através do JavaScript.
+
+.push:
+
+.splice: Permitir remover uma quantidade de itens de um array baseado na posição indicada.
+
+
+
+
+Primeiro Passo:  Criação de uma elemento do tipo 'a'
+
+Segundo Passo: Criação do texto que ficará dentro do primeiro elemento utilizando .appendChild
+
+Terceiro Passo: Criar uma variável e através dela selecionar a Div para inserir o elemento criado
+
+Quarto Passo: Utilizar .appendChild com a variável criada para atribuir o primeiro elemento como Child e assim posicionar dentro da Div
+
+
+
+
+Renderizando Lista: Criar forma de armazenamento dentro do Javascript para as tarefas;
+
+1 - Criar Array com Strings e criar funcão para renderizar os elementos dentro da 'ul'.
+2 - através de um comando For você consaegue obter e atribuir os valores dentro do array para uma váriavel de controle.
+3 - 
+
+
+''' todos.push() - Função do Array para inserir um novo item ao final dele '''
+
+''' .innerHTML = ''; - Consegue atribuir um valor para todos o elemenjto HTML selecionado.
+
+
+
+            AJAX
+
+var xhr = new XMLHttpRequest();   Linha De código repsonsável por iniciar e Possibilitar requisições AJAX.
